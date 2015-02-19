@@ -1,0 +1,3 @@
+export(lod_GWAS, lod_QC)
+importFrom(rms, psm)
+importFrom(survival, Surv, survregDtest)

@@ -1,0 +1,8 @@
+citHeader("To cite the lodWAS package in publications, please use:")
+
+citEntry(entry = "Unpublished",
+         title = "lodGWAS: A software package for genome-wide association analysis of biomarkers with a limit of detection",
+        author = "Ahmad Vaez, Peter J. van der Most, Bram Prins, Harold Snieder, Edwin van den Heuvel, Behrooz Z. Alizadeh and Ilja M. Nolte",
+          note = "In preparation",
+   textVersion = "Vaez, A., Van der Most, P.J., Prins, B.P., Snieder, H., Van den Heuvel, E. Alizadeh, B.Z. & Nolte, I.M. (In preparation). lodGWAS: A software package for genome-wide association analysis of biomarkers with a limit of detection."
+)

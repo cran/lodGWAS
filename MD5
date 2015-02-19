@@ -1,0 +1,11 @@
+a18c33b12f036dbc84ef39362350666b *DESCRIPTION
+635c0acc3d421fe7123bd1ceb67cede7 *NAMESPACE
+232455e2c7890e5513ddafd976e4dcfd *R/packaging_v10-0.r
+2cdaca293e080e797fbef14a0644441f *inst/CITATION
+940e3507b0f29916e9abb3e761bdfe19 *inst/doc/Sample_geno.dose
+df3f8631abcd8510afabe529502f2af4 *inst/doc/Sample_geno.map
+713926ba38b4cded71fcaca48f54d94f *inst/doc/Sample_pheno.txt
+d0ae5295bd6621dd16ce86298f6434b1 *inst/doc/lodGWAS_Manual_v1_0_0.pdf
+bcbcd5645cf23ad42713664d1625b3ce *man/lodGWAS-package.Rd
+597fb3281bbaf880b32623b42886aafc *man/lod_GWAS.Rd
+3f49575aa6df0c1e7561435fdd559775 *man/lod_QC.Rd

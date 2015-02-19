@@ -1,0 +1,11 @@
+FID	IID	sex	outcome1	outsideLOD
+1	female1	0	0.3	1
+2	male2	1	0.5	1
+3	male3	1	0.9	1
+4	female4	0	0.7	1
+5	female5	0	2	1
+6	male6	1	2	0
+7	female7	0	0.1	2
+8	male8	1	1.1	1
+9	male9	1	2	0
+10	male10	1	0.7	1

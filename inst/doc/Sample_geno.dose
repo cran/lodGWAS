@@ -1,0 +1,6 @@
+SNP	A1	A2	1	female1	2	male2	3	male3	4	female4	5	female5	6	male6	7	female7	8	male8	9	male9	10	male10
+rs00001	C	T	0	0	0	0	1	1	1	2	2	2										
+rs00002	C	G	0	0	1	1	2	2	0	1	2	0										
+rs00003	C	A	1	1	0	0	2	2	0	0	1	1										
+rs00004	A	T	0	1	2	0	1	2	0	1	2	1										
+rs00005	A	G	0	0	0	0	0	0	0	1	1	1										
