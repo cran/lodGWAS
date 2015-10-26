@@ -1,0 +1,5 @@
+Changes from v1.0-0 to v1.0-6
+
+* Changed the location of the sample files from the 'doc' folder to 'extdata'
+* Changed the opening message and lod_GWAS example to account for different file structures on different installs
+* Added stats & util functions to NameSpace

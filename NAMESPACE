@@ -1,3 +1,5 @@
 export(lod_GWAS, lod_QC)
+importFrom(stats, as.formula, pnorm, quantile, sd)
+importFrom(utils, flush.console, read.table, write.table)
 importFrom(rms, psm)
 importFrom(survival, Surv, survregDtest)

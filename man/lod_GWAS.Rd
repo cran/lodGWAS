@@ -325,12 +325,19 @@ lod_GWAS(phenofile, pheno_name,
   be \code{NA}.
 }
 \examples{
-# To run this example, please copy the 3 Sample files in
-# the doc folder of the lodGWAS library
-# (R-3.x.x/library/lodGWAS/doc) to your current R working directory
+# For use in this example, the 3 Sample files in the
+# extdata folder of the lodGWAS library will be copied
+# to your current R working directory
   
 \dontrun{
-setwd("YOUR WORKING DIRECTORY")
+
+file.copy(from = paste0(system.file("extdata", package = "lodGWAS"), "/Sample_geno.dose"),
+          to = getwd(), overwrite = FALSE, recursive = FALSE)
+file.copy(from = paste0(system.file("extdata", package = "lodGWAS"), "/Sample_geno.map"),
+          to = getwd(), overwrite = FALSE, recursive = FALSE)
+file.copy(from = paste0(system.file("extdata", package = "lodGWAS"), "/Sample_pheno.txt"),
+          to = getwd(), overwrite = FALSE, recursive = FALSE)
+
 lod_GWAS(phenofile = "Sample_pheno.txt", pheno_name = "outcome1",
          basic_model = "sex",
          mapfile = "Sample_geno.map", genofile = "Sample_geno.dose",
