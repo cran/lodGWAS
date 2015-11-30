@@ -34,8 +34,8 @@
 \tabular{ll}{
 Package: \tab lodGWAS\cr
 Type: \tab Package\cr
-Version: \tab 1.0-6\cr
-Date: \tab 2015-10-21\cr
+Version: \tab 1.0-7\cr
+Date: \tab 2015-11-10\cr
 License: \tab GPL (>= 3)\cr
 }
 }

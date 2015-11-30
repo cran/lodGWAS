@@ -331,12 +331,12 @@ lod_GWAS(phenofile, pheno_name,
   
 \dontrun{
 
-file.copy(from = paste0(system.file("extdata", package = "lodGWAS"), "/Sample_geno.dose"),
-          to = getwd(), overwrite = FALSE, recursive = FALSE)
-file.copy(from = paste0(system.file("extdata", package = "lodGWAS"), "/Sample_geno.map"),
-          to = getwd(), overwrite = FALSE, recursive = FALSE)
-file.copy(from = paste0(system.file("extdata", package = "lodGWAS"), "/Sample_pheno.txt"),
-          to = getwd(), overwrite = FALSE, recursive = FALSE)
+file.copy(from = file.path(system.file("extdata", package = "lodGWAS"), "Sample_geno.dose"),
+               to = getwd(), overwrite = FALSE, recursive = FALSE)
+file.copy(from = file.path(system.file("extdata", package = "lodGWAS"), "Sample_geno.map"),
+               to = getwd(), overwrite = FALSE, recursive = FALSE)
+file.copy(from = file.path(system.file("extdata", package = "lodGWAS"), "Sample_pheno.txt"),
+               to = getwd(), overwrite = FALSE, recursive = FALSE)
 
 lod_GWAS(phenofile = "Sample_pheno.txt", pheno_name = "outcome1",
          basic_model = "sex",

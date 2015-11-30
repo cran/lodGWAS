@@ -99,7 +99,7 @@ phenos <- data.frame(FID = c(1, 2, 3, 4, 5, 6, 7, 8, 9, 10),
                      sex = c(0, 1, 1, 0, 0, 1, 0, 1, 1, 1),
                      outcome1 = c(0.3, 0.5, 0.9, 0.7, 2, 2, 0.1, 1.1, 2, 0.7),
                      outsideLOD = as.integer(c(1, 1, 1, 1, 1, 0, 2, 1, 0, 1)),
-                     stringsAsfactors = FALSE)
+                     stringsAsFactors = FALSE)
 
 lod_QC(phenofile = phenos, pheno_name = "outcome1",
        outputfile = "Sample_QC", lower_limit = 0.1, upper_limit = 2)
